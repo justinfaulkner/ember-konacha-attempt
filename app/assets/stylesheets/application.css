@@ -17,3 +17,7 @@ h1.huge {
   margin-top: 0px;
   line-height: 250px;
 }
+
+a.active {
+  font-weight: bold;
+}

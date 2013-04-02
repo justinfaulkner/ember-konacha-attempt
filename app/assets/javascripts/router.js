@@ -3,6 +3,7 @@ App.Router.reopen({
 });
 
 App.Router.map(function() {
-  this.route("/");
-  this.route("two");
+  this.resource('people');
+  this.route('person', {path: '/person/:person_id'});
+
 });

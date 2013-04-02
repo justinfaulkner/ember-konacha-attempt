@@ -1,0 +1,9 @@
+<h2>People page!</h2>
+
+<p>Click on a person for details</p>
+
+<ul>
+  {{#each m in controller}}
+    <li>{{m.id}} - {{#linkTo person m}}{{m.fullName}}{{/linkTo}}</li>
+  {{/each}}
+</ul>

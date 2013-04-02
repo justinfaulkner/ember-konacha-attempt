@@ -41,9 +41,9 @@ beforeEach(function(done) {
 
 afterEach(function() {
   // Reset App
-  Ember.run(function() {
-    App.reset();
-  });
+//  Ember.run(function() {
+//    App.reset();
+//  });
 
   // Restore XHR
   server.restore();

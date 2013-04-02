@@ -17,5 +17,14 @@
 //= require ember-data
 //= require_self
 //= require app
-App = Ember.Application.create();
+App = Ember.Application.create({
+  LOG_TRANSITIONS: true,
+  LOG_BINDINGS: true,
+  ready: function() {
+    console.log('HelloEmber ready!');
+  }
+});
+
 //= require_tree .
+
+
